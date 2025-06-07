@@ -1,1 +1,5 @@
-
+Flask>=2.0
+python-dotenv>=0.19
+openai>=0.27
+APScheduler>=3.8
+requests>=2.28
