@@ -69,8 +69,8 @@ def generate():
 # 1) Predefined keyword 
 DAILY_KEYWORD = os.getenv("DAILY_KEYWORD", "wireless earbuds")
 # 2) Scheduled time (hour and minute in server’s timezone)
-DAILY_HOUR = int(os.getenv("DAILY_HOUR", "5"))
-DAILY_MINUTE = int(os.getenv("DAILY_MINUTE", "21"))
+DAILY_HOUR = int(os.getenv("DAILY_HOUR"))
+DAILY_MINUTE = int(os.getenv("DAILY_MINUTE"))
 
 def run_daily_task():
     """
